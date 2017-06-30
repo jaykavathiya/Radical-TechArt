@@ -1,27 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-p {
-  line-height: 2rem;
-}
 .grey_back{
   background-color: whitesmoke;
-}
-
-.line:before {
-  content: "";
-  width: 300px;
-  background-color: #EA5A27;
-  height: 2px;
-  display: inline-block;
-}
-
-.line2:after {
-  content: "";
-  width: 300px;
-  background-color: #EA5A27;
-  height: 2px;
-  display: inline-block;
-  margin-bottom: 10px;
 }
 
 .pos {
@@ -31,44 +11,3 @@ p {
   height: 100%;
 }
 
-.button-collapse {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-.parallax-container .section {
-  width: 100%;
-}
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}

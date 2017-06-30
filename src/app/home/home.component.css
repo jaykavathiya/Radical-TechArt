@@ -1,0 +1,83 @@
+.material-icons{
+  color: #3EA4F2;
+}
+.clr_blue{
+  color: #3EA4F2;
+}
+.line:before {
+  content: "";
+  width: 300px;
+  background-color: #3EA4F2;
+  height: 2px;
+  display: inline-block;
+}
+.line2:after {
+  content: "";
+  width: 300px;
+  background-color: #3EA4F2;
+  height: 2px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px ;
+  line-height: 0 ;
+  height: auto ;
+  color: rgba(255,255,255,.9) ;
+}
+
+img{
+  display: block !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+}
+.parallax-container .section {
+  width: 100% ;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute ;
+    top: 40% ;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
