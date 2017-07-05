@@ -13,4 +13,7 @@ export class NavigationComponent implements AfterViewInit {
       closeOnClick: true
     });
   }
+  navopen(){
+    jQuery('.button-collapse').sideNav('show');
+  }
 }
